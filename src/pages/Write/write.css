@@ -1,0 +1,87 @@
+.write{
+    padding-top: 40px;
+
+}
+
+.write-form{
+    position: relative;
+}
+
+.write-form-grp{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.write-form-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #444e;
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+
+.write-inp{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    
+    border-radius: 12px;
+
+}
+.write-inp:focus{
+    outline: teal solid;
+    border-radius: 12px;
+}
+
+.write-text{
+    font-size: 22px;
+    height: 64vh;
+    margin: 20px;
+    padding: 15px;
+    margin-left: 120px;
+}
+
+.write-submit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: #F3E9DD;
+    background: teal;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    width: 10%;
+}
+.write-submit:hover{
+    box-shadow: inset -12.5em 0 0 0 #444,  inset 12.5em 0 0 0 ivory;
+    transition-duration: 0.6s;
+}
+
+.write-form-icon:hover{
+    color: teal;
+    transition: 0.6s;
+    
+    transform: rotateZ(180deg);
+}
+.writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+

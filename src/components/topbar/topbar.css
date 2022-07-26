@@ -1,0 +1,105 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to left bottom, ivory , wheat);
+    position:sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    font-family: 'josefin Sans', sans-serif;
+    z-index: 1;
+
+}
+
+.top-left,.top-right {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.top-centre{
+    flex:6
+}
+.box{
+    margin-right: 10px;
+    font-size: 30px;
+   color: #444;
+   cursor: pointer;
+   transition: 0.2sec;
+}
+
+
+.top-image{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+   
+}
+
+.top-list{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding:0;
+    list-style: none;
+
+}
+.top-list-item{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+
+.search-icon{
+
+    
+    font-size: 22px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 9px;
+    margin-top:11px;
+    padding: 5px;
+    margin-bottom: 7px;
+
+}
+.f-box:hover{
+    color: #3b5998;
+}
+.t-box:hover{
+   color: #00acee
+}
+
+.i-box:hover{
+  color:  #3f729b
+}
+.p-box:hover{
+
+    color:#c8232c
+
+}
+.home:hover{
+    color: whitesmoke;
+}
+.contact:hover{
+    color: whitesmoke;
+}
+.write:hover{
+    color: whitesmoke;
+}
+.about:hover{
+    color: whitesmoke;
+}
+.user:hover{
+    color: whitesmoke;
+}
+
